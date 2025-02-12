@@ -1,0 +1,19 @@
+{
+  "name": "qt-scraper",
+  "version": "1.0.0",
+  "description": "PDF scraper for QT data",
+  "main": "dist/scraper.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node scraper.ts"
+  },
+  "dependencies": {
+    "puppeteer": "^21.10.0",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+} 
